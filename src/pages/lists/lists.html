@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>lists</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item (click)="enviar('Manipulacao')">
+      <ion-icon name="flask"></ion-icon>
+        Manipulação
+    </ion-item>
+
+    <ion-item (click)="enviar('Drogaria')">
+      <ion-icon name="medkit"></ion-icon>
+       Drogaria
+    </ion-item>
+
+    <ion-item (click)="enviar('Receituario Medico')">
+      <ion-icon name="paper"></ion-icon>
+        Receituário Médico
+    </ion-item>
+
+    <ion-item (click)="enviar('Cartao Fidelidade')">
+      <ion-icon name="card"></ion-icon>
+        Cartão Fidelidade
+    </ion-item>
+
+    <ion-item (click)="enviar('Atencao Farmaceutica')">
+        <ion-icon name="person-add"></ion-icon>
+        Atenção Farmacêutica
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
